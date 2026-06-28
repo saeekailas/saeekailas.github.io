@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAV ───────────────────────────────────────────── -->
+  <nav>
+    <span class="nav-logo">YourName</span>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#coding">Coding</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#blogs">Blogs</a></li>
+      <li><a href="#research">Research</a></li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO / ABOUT ───────────────────────────────────── -->
+  <section id="about" class="hero-section">
+
+    <div class="hero-inner">
+
+      <!-- Profile picture -->
+      <div class="pic-wrap">
+        <img src="photo.jpg" alt="Your Name" class="profile-pic" />
+        <!--
+          Put your photo in the same folder as index.html
+          and rename it to  photo.jpg
+          OR change "photo.jpg" above to whatever your file is called
+        -->
+      </div>
+
+      <!-- Name + tagline -->
+      <div class="hero-text">
+        <h1>Your Name</h1>
+        <p class="tagline">Developer · Researcher · Writer</p>
+        <p class="bio">
+          A short line or two about yourself — what you build, what you care about,
+          and where you're headed. Keep it honest and specific.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- Social links -->
+    <div class="socials">
+
+      <a href="https://linkedin.com/in/yourname" target="_blank" class="social-link" aria-label="LinkedIn">
+        <img src="icons/linkedin.svg" alt="LinkedIn" />
+        <span>LinkedIn</span>
+      </a>
+
+      <a href="mailto:youremail@gmail.com" class="social-link" aria-label="Gmail">
+        <img src="icons/gmail.svg" alt="Gmail" />
+        <span>Gmail</span>
+      </a>
+
+      <a href="https://github.com/yourusername" target="_blank" class="social-link" aria-label="GitHub">
+        <img src="icons/github.svg" alt="GitHub" />
+        <span>GitHub</span>
+      </a>
+
+      <a href="https://twitter.com/yourhandle" target="_blank" class="social-link" aria-label="Twitter / X">
+        <img src="icons/twitter.svg" alt="Twitter" />
+        <span>Twitter</span>
+      </a>
+
+    </div>
+
+  </section>
+
+  <!-- ── CODING PROFILES ───────────────────────────────── -->
+  <section id="coding">
+    <h2 class="section-title">Coding profiles</h2>
+    <p class="section-sub">Find me on these platforms</p>
+
+    <div class="card-row">
+
+      <a href="https://atcoder.jp/users/yourusername" target="_blank" class="profile-card">
+        <img src="icons/atcoder.svg" alt="AtCoder" class="profile-logo" />
+        <div class="profile-name">AtCoder</div>
+        <div class="profile-handle">@yourusername</div>
+      </a>
+
+      <a href="https://codeforces.com/profile/yourusername" target="_blank" class="profile-card">
+        <img src="icons/codeforces.svg" alt="Codeforces" class="profile-logo" />
+        <div class="profile-name">Codeforces</div>
+        <div class="profile-handle">@yourusername</div>
+      </a>
+
+      <a href="https://leetcode.com/yourusername" target="_blank" class="profile-card">
+        <img src="icons/leetcode.svg" alt="LeetCode" class="profile-logo" />
+        <div class="profile-name">LeetCode</div>
+        <div class="profile-handle">@yourusername</div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ───────────────────────────────────────── -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <p class="section-sub">Things I've built</p>
+
+    <div class="card-row">
+
+      <a href="https://github.com/yourusername/project-one" target="_blank" class="project-card">
+        <img src="icons/project1.svg" alt="Project One logo" class="project-logo" />
+        <div class="project-name">Project One</div>
+        <div class="project-desc">One sentence about what this does and why it matters.</div>
+        <div class="project-stack">Python · FastAPI</div>
+      </a>
+
+      <a href="https://github.com/yourusername/project-two" target="_blank" class="project-card">
+        <img src="icons/project2.svg" alt="Project Two logo" class="project-logo" />
+        <div class="project-name">Project Two</div>
+        <div class="project-desc">One sentence about what this does and why it matters.</div>
+        <div class="project-stack">React · Node.js</div>
+      </a>
+
+      <a href="https://github.com/yourusername/project-three" target="_blank" class="project-card">
+        <img src="icons/project3.svg" alt="Project Three logo" class="project-logo" />
+        <div class="project-name">Project Three</div>
+        <div class="project-desc">One sentence about what this does and why it matters.</div>
+        <div class="project-stack">C++ · Competitive</div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ── BLOGS ──────────────────────────────────────────── -->
+  <section id="blogs">
+    <h2 class="section-title">Blogs</h2>
+    <p class="section-sub">Read my writing</p>
+
+    <div class="card-row">
+
+      <a href="https://dev.to/yourusername" target="_blank" class="blog-card">
+        <img src="icons/devto.svg" alt="DEV.to" class="blog-logo" />
+        <div class="blog-name">DEV.to</div>
+        <div class="blog-desc">Technical articles and tutorials</div>
+      </a>
+
+      <a href="https://medium.com/@yourusername" target="_blank" class="blog-card">
+        <img src="icons/medium.svg" alt="Medium" class="blog-logo" />
+        <div class="blog-name">Medium</div>
+        <div class="blog-desc">Long-form essays and ideas</div>
+      </a>
+
+      <a href="https://yourusername.substack.com" target="_blank" class="blog-card">
+        <img src="icons/substack.svg" alt="Substack" class="blog-logo" />
+        <div class="blog-name">Substack</div>
+        <div class="blog-desc">Newsletter and deep dives</div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- ── RESEARCH PAPERS ────────────────────────────────── -->
+  <section id="research">
+    <h2 class="section-title">Research papers</h2>
+    <p class="section-sub">Academic work</p>
+
+    <div class="coming-soon-box">
+      <div class="coming-soon-icon">📄</div>
+      <div class="coming-soon-text">Coming soon</div>
+      <div class="coming-soon-sub">Research papers and publications will appear here.</div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <footer>
+    <p>© 2026 Your Name · Built with HTML & CSS · Hosted on GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
